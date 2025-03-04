@@ -3,21 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid und Flexbox Spickzettel</title>
+    <title>Grid und Flexbox Layout</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="grid-container">
-        <div class="grid-item header">Header</div>
-        <div class="grid-item sidebar">Sidebar</div>
-        <div class="grid-item main">Main Content</div>
-        <div class="grid-item footer">Footer</div>
-    </header>
-    
+    <!-- Grid Container mit benannten Bereichen für das Heilige-Gral-Layout -->
+    <div class="grid-container">
+        <header class="grid-item header">Header</header>
+        <aside class="grid-item left">Left Sidebar</aside>
+        <main class="grid-item main">Main Content</main>
+        <aside class="grid-item right">Right Sidebar</aside>
+        <footer class="grid-item footer">Footer</footer>
+    </div>
+
+    <!-- Flexbox Container mit mehreren Boxen zur Demonstration von Flex-Eigenschaften -->
     <section class="flex-container">
-        <div class="flex-item">Item 1</div>
-        <div class="flex-item">Item 2</div>
-        <div class="flex-item">Item 3</div>
+        <div class="box box1">One</div>
+        <div class="box box2">Two</div>
+        <div class="box box3">Three</div>
+        <div class="box box4">Four</div>
+        <div class="box box5">Five</div>
+        <div class="box box6">Six</div>
+        <div class="box box7">Seven</div>
     </section>
 </body>
 </html>
